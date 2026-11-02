@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-labelledby="title description">
+  <title id="title">Student Management System</title>
+  <desc id="description">A dashboard illustration with student records and enrollment statistics.</desc>
+  <rect width="1200" height="800" fill="#101827"/>
+  <rect x="48" y="48" width="1104" height="704" rx="24" fill="#f5f7fb"/>
+  <rect x="48" y="48" width="250" height="704" rx="24" fill="#17243a"/>
+  <rect x="48" y="48" width="250" height="704" fill="#17243a"/>
+  <circle cx="102" cy="112" r="22" fill="#28a6a1"/>
+  <text x="140" y="121" fill="#ffffff" font-family="Arial, sans-serif" font-size="24" font-weight="700">STUDENT HUB</text>
+  <rect x="78" y="184" width="172" height="48" rx="10" fill="#263a59"/>
+  <text x="102" y="215" fill="#ffffff" font-family="Arial, sans-serif" font-size="18">Dashboard</text>
+  <text x="102" y="278" fill="#bdc9dc" font-family="Arial, sans-serif" font-size="18">Students</text>
+  <text x="102" y="334" fill="#bdc9dc" font-family="Arial, sans-serif" font-size="18">Attendance</text>
+  <text x="102" y="390" fill="#bdc9dc" font-family="Arial, sans-serif" font-size="18">Reports</text>
+  <text x="342" y="126" fill="#17243a" font-family="Arial, sans-serif" font-size="34" font-weight="700">Student Dashboard</text>
+  <text x="342" y="164" fill="#667085" font-family="Arial, sans-serif" font-size="18">Overview of student records and activity</text>
+  <rect x="342" y="205" width="230" height="130" rx="16" fill="#ffffff"/>
+  <rect x="592" y="205" width="230" height="130" rx="16" fill="#ffffff"/>
+  <rect x="842" y="205" width="270" height="130" rx="16" fill="#ffffff"/>
+  <text x="368" y="250" fill="#667085" font-family="Arial, sans-serif" font-size="17">Total Students</text>
+  <text x="368" y="302" fill="#17243a" font-family="Arial, sans-serif" font-size="38" font-weight="700">1,248</text>
+  <text x="618" y="250" fill="#667085" font-family="Arial, sans-serif" font-size="17">Attendance</text>
+  <text x="618" y="302" fill="#17243a" font-family="Arial, sans-serif" font-size="38" font-weight="700">94.8%</text>
+  <text x="868" y="250" fill="#667085" font-family="Arial, sans-serif" font-size="17">New Enrollments</text>
+  <text x="868" y="302" fill="#17243a" font-family="Arial, sans-serif" font-size="38" font-weight="700">+36</text>
+  <rect x="342" y="365" width="770" height="330" rx="16" fill="#ffffff"/>
+  <text x="372" y="413" fill="#17243a" font-family="Arial, sans-serif" font-size="23" font-weight="700">Recent Students</text>
+  <text x="372" y="468" fill="#667085" font-family="Arial, sans-serif" font-size="16" font-weight="700">NAME</text>
+  <text x="702" y="468" fill="#667085" font-family="Arial, sans-serif" font-size="16" font-weight="700">COURSE</text>
+  <text x="932" y="468" fill="#667085" font-family="Arial, sans-serif" font-size="16" font-weight="700">STATUS</text>
+  <path d="M372 488h710M372 548h710M372 608h710" stroke="#e7ebf1" stroke-width="2"/>
+  <circle cx="396" cy="518" r="16" fill="#d9e8ff"/>
+  <text x="424" y="525" fill="#273449" font-family="Arial, sans-serif" font-size="17">Aarav Sharma</text>
+  <text x="702" y="525" fill="#273449" font-family="Arial, sans-serif" font-size="17">Computer Science</text>
+  <rect x="932" y="500" width="92" height="34" rx="17" fill="#d8f5e8"/>
+  <text x="949" y="523" fill="#18794e" font-family="Arial, sans-serif" font-size="15">Active</text>
+  <circle cx="396" cy="578" r="16" fill="#fce4d6"/>
+  <text x="424" y="585" fill="#273449" font-family="Arial, sans-serif" font-size="17">Ananya Das</text>
+  <text x="702" y="585" fill="#273449" font-family="Arial, sans-serif" font-size="17">Business Studies</text>
+  <rect x="932" y="560" width="92" height="34" rx="17" fill="#d8f5e8"/>
+  <text x="949" y="583" fill="#18794e" font-family="Arial, sans-serif" font-size="15">Active</text>
+  <circle cx="396" cy="638" r="16" fill="#eee2ff"/>
+  <text x="424" y="645" fill="#273449" font-family="Arial, sans-serif" font-size="17">Rohan Sen</text>
+  <text x="702" y="645" fill="#273449" font-family="Arial, sans-serif" font-size="17">Information Technology</text>
+  <rect x="932" y="620" width="92" height="34" rx="17" fill="#d8f5e8"/>
+  <text x="949" y="643" fill="#18794e" font-family="Arial, sans-serif" font-size="15">Active</text>
+</svg>

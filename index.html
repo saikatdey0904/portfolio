@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c4a7954afd.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="./portfolio_image.png" alt="Saikat Dey" class="logo">
+
+                <ul id="sidemenu">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+
+
+                    <i id="fas" class="fa-solid fa-xmark" onclick="closemenu()"></i>
+
+
+                </ul>
+
+                <i id="fas" class="fa-solid fa-bars" onclick="openmenu()"></i>
+
+            </nav>
+
+            <div class="header-text">
+                <p>Web Developer</p>
+                <h1>Hi, I'm <span>Saikat Dey</span><br>From Hooghly</h1>
+            </div>
+        </div>
+    </div>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="./portfolio_image.png" alt="Saikat Dey">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Hi, I'm Saikat Dey, a BCA graduate from Manipal University Jaipur and an aspiring Front-End
+                        Developer. I have knowledge of HTML, CSS, JavaScript, Bootstrap, and MySQL. I enjoy creating
+                        responsive, user-friendly websites and designing clean web pages. I am currently doing a Web
+                        Development Internship at Unified Mentor and learning React.js and Node.js to improve my skills.
+                        I have worked on projects like a Personal Portfolio Website and Foodie-Hunt, a food-related
+                        website inspired by platforms like Zomato and Swiggy. I am always eager to learn new
+                        technologies, solve problems, and grow as a web developer.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Front-End Development</span><br />
+                                HTML5, CSS3, JavaScript (ES6), Bootstrap</li>
+                            <li><span>Web Development</span><br />
+                                Responsive and user-friendly website design</li>
+                            <li><span>Database Management</span><br />
+                                MySQL and CRUD Operations</li>
+                            <li><span>UI/UX Design</span><br />
+                                Basic Figma and Canva</li>
+                            <li><span>AI-Assisted Landing Pages</span><br />
+                                Using ChatGPT and Claude</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Web Development Intern</span><br>
+                                Unified Mentor | Currently Ongoing</li>
+                            <li><span>Web Development Practice</span><br>
+                                Practising website layout, responsive
+                                design,and debugging.</li>
+                            <li><span>Learning New Technologies</span><br>
+                                Currently learning React.js and Node.js.</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>Bachelor of Computer Applications (BCA)</span><br>
+                                Manipal University Jaipur | 2022–2026<br>
+                                Final Result Awaited</li>
+                            <li><span>Web Design & Development Course</span><br>
+                                Aptech Computer Education | Completed January 2026
+                            </li>
+                            <li><span>Higher Secondary (Class 12)</span><br>
+                                Shyambazar Gopal Chandra Sen High School | 2021–2022</li>
+                            <li><span>Secondary (Class 10)</span><br>
+                                Shyambazar Gopal Chandra Sen High School | 2019–2020</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code" style="color: rgb(0, 145, 255); font-size: 25px;"></i>
+                    <h2>Web Development</h2>
+                    <p>I create responsive and user-friendly websitesusing HTML, CSS, JavaScript, and Bootstrap.</p>
+                    <a href="#">Learn more</a>
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-crop" style="color:  rgb(0, 145, 255); font-size: 25px;"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>I design clean and attractive website layoutsusing Figma and Canva.</p>
+                    <a href="#">Learn more</a>
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-laptop-code" style="color:  rgb(0, 145, 255); font-size: 25px;"></i>
+                    <h2>Landing Page Design</h2>
+                    <p>I create modern landing page designs usingHTML, CSS, ChatGPT, and Claude.</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+        </div>
+
+        <!-- Portfolio Section -->
+        <section id="portfolio">
+            <div class="container">
+                <h1 class="sub-title">My Projects</h1>
+
+                <div class="work-list">
+                    <div class="work">
+                        <img src="./portfolio_work1.png" alt="Personal Portfolio Website">
+                        <div class="layer">
+                            <h3>Personal Portfolio Website</h3>
+                            <p>
+                                A personal portfolio website to showcase my
+                                skills, education, experience, and projects.
+                            </p>
+                            <a href="#"><i class="fa-solid fa-link"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="work">
+                        <img src="./student_m_system.svg" alt="Student management system preview">
+                        <div class="layer">
+                            <h3>Student Management System</h3>
+                            <p>
+                                A student management system designed to
+                                manage student information and academic records.
+                            </p>
+                            <a href="#"><i class="fa-solid fa-link"></i></a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Contact Section -->
+        <section id="contact">
+            <div class="container">
+                <div class="row">
+
+                    <div class="contact-left">
+                        <h1 class="sub-title">Contact Me</h1>
+
+                        <p>
+                            <i id="send" class="fa-solid fa-envelope"></i>
+                            dey.saikat0904@gmail.com
+                        </p>
+
+                        <p>
+                            <i id="call" class="fa-solid fa-phone"></i>
+                            +91 8597565181
+                        </p>
+
+                        <div class="social-icons" id="social-icons">
+                            <a href=""><i class="fab fa-facebook"></i></a>
+                            <a href=""><i class="fab fa-twitter-square"></i></a>
+                            <a href=""><i class="fab fa-instagram"></i></a>
+                            <a href=""><i class="fab fa-linkedin"></i></a>
+                        </div>
+                        <a href="./Saikat_Dey_CV.pdf.pdf" class="btn btn2" download>Download CV</a>
+                    </div>
+
+                    <div class="contact-right">
+
+                        <form name="submit-to-google-sheet" method="POST">
+                            <input type="text" name="name" placeholder="Your Name" required>
+
+                            <input type="email" name="email" placeholder="Your Email" required>
+
+                            <textarea name="message" rows="6" placeholder="Your Message" required></textarea>
+
+                            <button type="submit" class="btn btn2">Submit</button>
+
+                            <p id="form-message"></p>
+                        </form>
+
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <div class="copyright">
+            <p>Copyright @ Saikat. Made with by <i class="fa-solid fa-shield-heart" style="color: red;"></i> me</p>
+        </div>
+
+
+
+        <!-- Link-tab JavaScript -->
+        <script>
+            var tablinks = document.getElementsByClassName("tab-links");
+            var tabcontents = document.getElementsByClassName("tab-contents");
+
+            function opentab(tabname) {
+                for (tablink of tablinks) {
+                    tablink.classList.remove("active-link");
+                }
+
+                for (tabcontent of tabcontents) {
+                    tabcontent.classList.remove("active-tab");
+                }
+                event.currentTarget.classList.add("active-link");
+                document.getElementById(tabname).classList.add("active-tab");
+            }
+        </script>
+
+        <!-- Sidemenu Script -->
+        <script>
+
+            var sidemenu = document.getElementById("sidemenu");
+
+            function openmenu() {
+                sidemenu.style.right = "0";
+            }
+
+            function closemenu() {
+                sidemenu.style.right = "-200px";
+            }
+
+        </script>
+
+
+
+        <script>
+            const scriptURL = 'https://script.google.com/macros/s/AKfycbzZR4DVW6N-UCmYv8YuZM14DITu07Z7lf4LTe3y8mus9e70L00PWBWNIRBg6711cJY2/exec';
+
+            const form = document.forms['submit-to-google-sheet'];
+            const message = document.getElementById('form-message');
+
+            form.addEventListener('submit', function (e) {
+                e.preventDefault();
+
+                const button = form.querySelector('button[type="submit"]');
+                button.disabled = true;
+                button.textContent = 'Sending...';
+
+                fetch(scriptURL, {
+                    method: 'POST',
+                    body: new FormData(form)
+                })
+                    .then(() => {
+                        message.textContent = 'Message submitted!';
+                        form.reset();
+                    })
+                    .catch(error => {
+                        message.textContent = 'Something went wrong. Please try again.';
+                        console.error('Error!', error);
+                    })
+                    .finally(() => {
+                        button.disabled = false;
+                        button.textContent = 'Submit';
+                    });
+            });
+        </script>
+
+</body>
+
+</html>
