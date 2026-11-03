@@ -16,19 +16,27 @@
                 <img src="./portfolio_image.png" alt="Saikat Dey" class="logo">
 
                 <ul id="sidemenu">
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#services">Services</a></li>
-                    <li><a href="#portfolio">Portfolio</a></li>
-                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#header" onclick="closemenu()">Home</a></li>
+                    <li><a href="#about" onclick="closemenu()">About</a></li>
+                    <li><a href="#services" onclick="closemenu()">Services</a></li>
+                    <li><a href="#portfolio" onclick="closemenu()">Portfolio</a></li>
+                    <li><a href="#contact" onclick="closemenu()">Contact</a></li>
 
 
-                    <i id="fas" class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                    <li class="menu-close-item">
+                        <button class="menu-close" type="button" aria-label="Close navigation menu"
+                            onclick="closemenu()">
+                            <i class="fa-solid fa-xmark" aria-hidden="true"></i>
+                        </button>
+                    </li>
 
 
                 </ul>
 
-                <i id="fas" class="fa-solid fa-bars" onclick="openmenu()"></i>
+                <button class="menu-toggle" type="button" aria-label="Open navigation menu" aria-controls="sidemenu"
+                    aria-expanded="false" onclick="openmenu()">
+                    <i class="fa-solid fa-bars" aria-hidden="true"></i>
+                </button>
 
             </nav>
 
@@ -134,10 +142,10 @@
                 </div>
             </div>
         </div>
-        </div>
+    </section>
 
-        <!-- Portfolio Section -->
-        <section id="portfolio">
+    <!-- Portfolio Section -->
+    <section id="portfolio">
             <div class="container">
                 <h1 class="sub-title">My Projects</h1>
 
@@ -248,11 +256,13 @@
             var sidemenu = document.getElementById("sidemenu");
 
             function openmenu() {
-                sidemenu.style.right = "0";
+                sidemenu.classList.add("open");
+                document.querySelector(".menu-toggle").setAttribute("aria-expanded", "true");
             }
 
             function closemenu() {
-                sidemenu.style.right = "-200px";
+                sidemenu.classList.remove("open");
+                document.querySelector(".menu-toggle").setAttribute("aria-expanded", "false");
             }
 
         </script>
